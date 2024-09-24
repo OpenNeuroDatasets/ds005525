@@ -1,0 +1,2283 @@
+{
+  "AcquisitionMatrixPE": 72,
+  "AcquisitionNumber": 1,
+  "AcquisitionTime": "20:06:50.192500",
+  "BodyPartExamined": "BRAIN",
+  "ConversionSoftware": "dcm2niix",
+  "ConversionSoftwareVersion": "v1.0.20220720",
+  "DeviceSerialNumber": "45219",
+  "EchoTime": 0.03,
+  "EchoTrainLength": 72,
+  "FlipAngle": 80,
+  "HeudiconvVersion": "1.1.6",
+  "ImageOrientationPatientDICOM": [0.998592, -0.0366439, 0.0383609, 0.0366167, 0.999328, 0.00141178],
+  "ImageType": [
+    "ORIGINAL",
+    "PRIMARY",
+    "M",
+    "ND",
+    "NORM",
+    "MOCO",
+    "MOSAIC"
+],
+  "ImagingFrequency": 123.182,
+  "InPlanePhaseEncodingDirectionDICOM": "COL",
+  "MRAcquisitionType": "2D",
+  "MagneticFieldStrength": 3,
+  "Manufacturer": "Siemens",
+  "ManufacturersModelName": "DicomCleaner",
+  "Modality": "MR",
+  "NonlinearGradientCorrection": false,
+  "PatientPosition": "HFS",
+  "PercentPhaseFOV": 100,
+  "PercentSampling": 100,
+  "PhaseEncodingAxis": "j",
+  "PhaseEncodingSteps": 72,
+  "PixelBandwidth": 1985,
+  "ProtocolName": "REST_1_MoCo",
+  "ReconMatrixPE": 72,
+  "RepetitionTime": 2.5,
+  "SAR": 0.113275,
+  "ScanOptions": "FS",
+  "ScanningSequence": "EP",
+  "SequenceName": "*epfid2d1_72",
+  "SequenceVariant": "SK",
+  "SeriesDescription": "MoCoSeries",
+  "SeriesNumber": 7,
+  "SliceThickness": 3,
+  "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+  "SpacingBetweenSlices": 3,
+  "StationName": "PIERRJ03PC",
+  "TaskName": "rest",
+  "dcmmeta_affine": [
+    [-2.9957754611968994, 0.10985016077756882, 0.11516062170267105, 729.0001831054688],
+    [0.10993178188800812, 2.9979851245880127, 1.543862344988156e-05, -787.8780517578125],
+    [0.11508271098136902, -0.0042353542521595955, 2.997788906097412, -38.112640380859375],
+    [0.0, 0.0, 0.0, 1.0]
+],
+  "dcmmeta_reorient_transform": [
+    [0.0, -1.0, 0.0, 503.0],
+    [1.0, 0.0, 0.0, 0.0],
+    [0.0, 0.0, -1.0, 0.0],
+    [0.0, 0.0, 0.0, 1.0]
+],
+  "dcmmeta_shape": [504, 504, 1, 122],
+  "dcmmeta_slice_dim": 2,
+  "dcmmeta_version": 0.6,
+  "global": {
+    "const": {
+      "AcquisitionMatrix": [72, 0, 0, 72],
+      "AngioFlag": "N",
+      "BitsAllocated": 16,
+      "BitsStored": 12,
+      "BodyPartExamined": "BRAIN",
+      "Columns": 504,
+      "DeidentificationMethod": [
+        "Deidentified",
+        "Descriptors removed except series except protocol",
+        "Patient Characteristics removed",
+        "Device identity retained",
+        "Institution identity removed",
+        "Dates retained",
+        "Structured content modified",
+        "Unsafe private removed",
+        "UIDs remapped"
+],
+      "DeidentificationMethodCodeSequence": [
+        {
+          "CodeMeaning": "Basic Application Confidentiality Profile",
+          "CodeValue": "113100",
+          "CodingSchemeDesignator": "DCM"
+        },
+        {
+          "CodeMeaning": "Remove all descriptors except Series Description & Protocol Name",
+          "CodeValue": "210008",
+          "CodingSchemeDesignator": "99PMP"
+        },
+        {
+          "CodeMeaning": "Retain Device Identity Option",
+          "CodeValue": "113109",
+          "CodingSchemeDesignator": "DCM"
+        },
+        {
+          "CodeMeaning": "Retain Longitudinal Temporal Information Full Dates Option",
+          "CodeValue": "113106",
+          "CodingSchemeDesignator": "DCM"
+        },
+        {
+          "CodeMeaning": "Clean Structured Content Option",
+          "CodeValue": "113104",
+          "CodingSchemeDesignator": "DCM"
+        },
+        {
+          "CodeMeaning": "Retain Safe Private Option",
+          "CodeValue": "113111",
+          "CodingSchemeDesignator": "DCM"
+        },
+        {
+          "CodeMeaning": "Remap UIDs",
+          "CodeValue": "210001",
+          "CodingSchemeDesignator": "99PMP"
+        }
+],
+      "EchoNumbers": 1,
+      "EchoTime": 30.0,
+      "EchoTrainLength": 72,
+      "FlipAngle": 80.0,
+      "HighBit": 11,
+      "ImageOrientationPatient": [0.99859184039366, -0.0366439267631, 0.0383609036728, 0.03661672102972, 0.99932838576961, 0.00141178473403],
+      "ImagePositionPatient": [-784.25482773049, -720.10847986328, -40.243022926594],
+      "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "ND",
+        "NORM",
+        "MOCO",
+        "MOSAIC"
+],
+      "ImagedNucleus": "1H",
+      "ImagingFrequency": 123.181716,
+      "InPlanePhaseEncodingDirection": "COL",
+      "MRAcquisitionType": "2D",
+      "MagneticFieldStrength": 3.0,
+      "Manufacturer": "SIEMENS",
+      "ManufacturerModelName": "Skyra",
+      "Modality": "MR",
+      "NumberOfAverages": 1.0,
+      "NumberOfPhaseEncodingSteps": 72,
+      "PercentPhaseFieldOfView": 100.0,
+      "PercentSampling": 100.0,
+      "PerformedProcedureStepStartTime": "195545.191000",
+      "PhotometricInterpretation": "MONOCHROME2",
+      "PixelBandwidth": 1985.0,
+      "PixelRepresentation": 0,
+      "PixelSpacing": [3.0, 3.0],
+      "ProcedureCodeSequence": [
+        {
+          "CodeMeaning": "MRI BRAIN WITHOUT IV CONTRAST",
+          "CodeValue": "IMG269",
+          "CodingSchemeDesignator": "L"
+        }
+],
+      "ProtocolName": "REST_1",
+      "RepetitionTime": 2500.0,
+      "RequestedProcedureCodeSequence": [
+        {
+          "CodeMeaning": "MRI BRAIN WITHOUT IV CONTRAST",
+          "CodeValue": "IMG269",
+          "CodingSchemeDesignator": "L"
+        }
+],
+      "Rows": 504,
+      "SAR": 0.11327490371752,
+      "SamplesPerPixel": 1,
+      "ScanOptions": "FS",
+      "ScanningSequence": "EP",
+      "SequenceName": "*epfid2d1_72",
+      "SequenceVariant": "SK",
+      "SeriesDescription": "MoCoSeries",
+      "SeriesNumber": 7,
+      "SeriesTime": "200742.472000",
+      "SliceLocation": -10.104565381658,
+      "SliceThickness": 3.0,
+      "SmallestImagePixelValue": 0,
+      "SoftwareVersions": "syngo MR E11",
+      "SpacingBetweenSlices": 2.9999999843847,
+      "StudyTime": "195545.046000",
+      "TransmitCoilName": "Body",
+      "VariableFlipAngleFlag": "N",
+      "WindowCenterWidthExplanation": "Algo1",
+      "dBdt": 0.0},
+    "slices": {}
+  },
+  "time": {
+    "samples": {
+      "AcquisitionNumber": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122],
+      "AcquisitionTime": ["200650.192500", "200652.692500", "200655.192500", "200657.692500", "200700.192500", "200702.692500", "200705.192500", "200707.692500", "200710.192500", "200712.692500", "200715.192500", "200717.692500", "200720.192500", "200722.692500", "200725.192500", "200727.692500", "200730.192500", "200732.692500", "200735.192500", "200737.692500", "200740.192500", "200742.692500", "200745.192500", "200747.692500", "200750.192500", "200752.692500", "200755.192500", "200757.692500", "200800.192500", "200802.692500", "200805.192500", "200807.692500", "200810.192500", "200812.692500", "200815.192500", "200817.692500", "200820.192500", "200822.692500", "200825.192500", "200827.692500", "200830.192500", "200832.692500", "200835.192500", "200837.692500", "200840.192500", "200842.692500", "200845.192500", "200847.692500", "200850.192500", "200852.692500", "200855.192500", "200857.692500", "200900.192500", "200902.692500", "200905.192500", "200907.692500", "200910.192500", "200912.692500", "200915.192500", "200917.692500", "200920.192500", "200922.692500", "200925.192500", "200927.692500", "200930.192500", "200932.692500", "200935.192500", "200937.692500", "200940.192500", "200942.692500", "200945.192500", "200947.692500", "200950.192500", "200952.692500", "200955.192500", "200957.692500", "201000.192500", "201002.692500", "201005.192500", "201007.692500", "201010.192500", "201012.692500", "201015.192500", "201017.692500", "201020.192500", "201022.692500", "201025.192500", "201027.692500", "201030.192500", "201032.692500", "201035.192500", "201037.692500", "201040.192500", "201042.692500", "201045.192500", "201047.692500", "201050.192500", "201052.692500", "201055.192500", "201057.692500", "201100.192500", "201102.692500", "201105.192500", "201107.692500", "201110.192500", "201112.692500", "201115.192500", "201117.692500", "201120.192500", "201122.692500", "201125.192500", "201127.692500", "201130.192500", "201132.692500", "201135.192500", "201137.692500", "201140.192500", "201142.692500", "201145.192500", "201147.692500", "201150.192500", "201152.692500"],
+      "ContentTime": ["200742.475000", "200742.478000", "200742.480000", "200742.483000", "200742.486000", "200742.488000", "200742.491000", "200742.493000", "200742.496000", "200742.499000", "200742.502000", "200742.504000", "200742.507000", "200742.510000", "200742.512000", "200742.515000", "200742.518000", "200742.521000", "200742.523000", "200742.526000", "200842.469000", "200842.471000", "200842.474000", "200842.477000", "200842.480000", "200842.482000", "200842.485000", "200842.488000", "200842.491000", "200842.493000", "200842.496000", "200842.499000", "200842.501000", "200842.504000", "200842.506000", "200842.509000", "200842.512000", "200842.515000", "200842.517000", "200842.520000", "200842.523000", "200842.525000", "200842.528000", "200842.531000", "200842.533000", "200942.484000", "200942.487000", "200942.496000", "200942.498000", "200942.501000", "200942.504000", "200942.507000", "200942.509000", "200942.512000", "200942.515000", "200942.517000", "200942.520000", "200942.523000", "200942.525000", "200942.528000", "200942.531000", "200942.534000", "200942.536000", "200942.539000", "200942.542000", "200942.544000", "200942.547000", "200942.550000", "200942.552000", "201042.478000", "201042.481000", "201042.483000", "201042.486000", "201042.489000", "201042.492000", "201042.494000", "201042.497000", "201042.500000", "201042.502000", "201042.505000", "201042.508000", "201042.510000", "201042.513000", "201042.516000", "201042.518000", "201042.521000", "201042.524000", "201042.527000", "201042.529000", "201042.532000", "201042.535000", "201042.538000", "201142.494000", "201142.497000", "201142.507000", "201142.510000", "201142.513000", "201142.515000", "201142.518000", "201142.521000", "201142.523000", "201142.526000", "201142.529000", "201142.532000", "201142.534000", "201142.537000", "201142.540000", "201142.543000", "201142.545000", "201142.548000", "201142.551000", "201142.554000", "201142.556000", "201142.559000", "201142.562000", "201142.564000", "201142.567000", "201154.960000", "201154.963000", "201154.966000", "201154.969000", "201154.977000"],
+      "ContributingEquipmentSequence": [
+        [
+          {
+            "ContributionDateTime": "20200312105439.655-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.674-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.691-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.709-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.728-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.746-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.762-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.781-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.798-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.815-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.833-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.851-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.868-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.885-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.901-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.917-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.933-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.949-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.966-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.983-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105439.998-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.016-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.034-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.052-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.070-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.087-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.104-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.122-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.141-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.159-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.175-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.192-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.209-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.225-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.241-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.258-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.282-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.299-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.315-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.333-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.350-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.368-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.385-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.402-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.419-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.436-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.453-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.470-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.487-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.504-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.521-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.539-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.555-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.573-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.590-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.607-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.623-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.639-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.657-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.674-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.692-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.709-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.726-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.743-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.759-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.776-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.793-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.810-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.828-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.845-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.863-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.883-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.900-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.917-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.933-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.949-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.971-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105440.989-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.006-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.024-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.040-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.057-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.073-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.089-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.106-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.123-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.140-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.157-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.173-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.190-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.208-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.224-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.241-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.266-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.284-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.302-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.320-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.338-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.356-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.374-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.391-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.407-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.424-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.440-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.458-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.475-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.495-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.514-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.532-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.549-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.566-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.584-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.601-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.617-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.634-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.650-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.674-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.692-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.710-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.728-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.745-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+],
+        [
+          {
+            "ContributionDateTime": "20200312105441.764-0400",
+            "ContributionDescription": "Cleaned",
+            "Manufacturer": "PixelMed",
+            "ManufacturerModelName": "DicomCleaner",
+            "PurposeOfReferenceCodeSequence": [
+              {
+                "CodeMeaning": "De-identifying Equipment",
+                "CodeValue": "109104",
+                "CodingSchemeDesignator": "DCM"
+              }
+],
+            "SoftwareVersions": "Tue Feb 12 18:07:17 EST 2019",
+            "StationName": "PIERRJ03PC"
+          }
+]
+],
+      "InstanceCreationTime": ["200742.475000", "200742.478000", "200742.480000", "200742.483000", "200742.486000", "200742.488000", "200742.491000", "200742.493000", "200742.496000", "200742.499000", "200742.502000", "200742.504000", "200742.507000", "200742.510000", "200742.512000", "200742.515000", "200742.518000", "200742.521000", "200742.523000", "200742.526000", "200842.469000", "200842.471000", "200842.474000", "200842.477000", "200842.480000", "200842.482000", "200842.485000", "200842.488000", "200842.491000", "200842.493000", "200842.496000", "200842.499000", "200842.501000", "200842.504000", "200842.506000", "200842.509000", "200842.512000", "200842.515000", "200842.517000", "200842.520000", "200842.523000", "200842.525000", "200842.528000", "200842.531000", "200842.533000", "200942.484000", "200942.487000", "200942.496000", "200942.498000", "200942.501000", "200942.504000", "200942.507000", "200942.509000", "200942.512000", "200942.515000", "200942.517000", "200942.520000", "200942.523000", "200942.525000", "200942.528000", "200942.531000", "200942.534000", "200942.536000", "200942.539000", "200942.542000", "200942.544000", "200942.547000", "200942.550000", "200942.552000", "201042.478000", "201042.481000", "201042.483000", "201042.486000", "201042.489000", "201042.492000", "201042.494000", "201042.497000", "201042.500000", "201042.502000", "201042.505000", "201042.508000", "201042.510000", "201042.513000", "201042.516000", "201042.518000", "201042.521000", "201042.524000", "201042.527000", "201042.529000", "201042.532000", "201042.535000", "201042.538000", "201142.494000", "201142.497000", "201142.507000", "201142.510000", "201142.513000", "201142.515000", "201142.518000", "201142.521000", "201142.523000", "201142.526000", "201142.529000", "201142.532000", "201142.534000", "201142.537000", "201142.540000", "201142.543000", "201142.545000", "201142.548000", "201142.551000", "201142.554000", "201142.556000", "201142.559000", "201142.562000", "201142.564000", "201142.567000", "201154.960000", "201154.963000", "201154.966000", "201154.969000", "201154.977000"],
+      "InstanceNumber": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122],
+      "LargestImagePixelValue": [2346, 2344, 2659, 2494, 2529, 2485, 2229, 2313, 2214, 2221, 2585, 2437, 2199, 2373, 2602, 2508, 2460, 2296, 2289, 2472, 2688, 3005, 2657, 2537, 2569, 2392, 2384, 2292, 2480, 2283, 2549, 2246, 2286, 2263, 2489, 2625, 2262, 2266, 2364, 2291, 2619, 2540, 2226, 2291, 2416, 2349, 2224, 2405, 2358, 2593, 2573, 2343, 2694, 2254, 2476, 2226, 2432, 2234, 2483, 2777, 2356, 2426, 2315, 2538, 2208, 2460, 2432, 2759, 2591, 2372, 2274, 2520, 2478, 2651, 2594, 2498, 2746, 2314, 2353, 2251, 2343, 2449, 2527, 2955, 2680, 2326, 2438, 2296, 2375, 2799, 2455, 2338, 2539, 2608, 2290, 2401, 2532, 2315, 2319, 2398, 2368, 2715, 2412, 2275, 2463, 2281, 2536, 2408, 2321, 2298, 2416, 2701, 2651, 2307, 2349, 2543, 2348, 2308, 2456, 2331, 2594, 2432],
+      "WindowCenter": [755.0, 753.0, 753.0, 753.0, 752.0, 752.0, 752.0, 752.0, 753.0, 753.0, 753.0, 753.0, 752.0, 752.0, 753.0, 752.0, 752.0, 752.0, 751.0, 752.0, 753.0, 754.0, 754.0, 753.0, 753.0, 752.0, 753.0, 753.0, 753.0, 752.0, 753.0, 752.0, 752.0, 752.0, 753.0, 752.0, 752.0, 752.0, 752.0, 753.0, 753.0, 752.0, 752.0, 752.0, 752.0, 752.0, 752.0, 753.0, 752.0, 753.0, 752.0, 752.0, 753.0, 751.0, 751.0, 751.0, 752.0, 752.0, 753.0, 754.0, 752.0, 753.0, 752.0, 752.0, 751.0, 752.0, 754.0, 754.0, 753.0, 753.0, 752.0, 753.0, 753.0, 753.0, 752.0, 752.0, 753.0, 752.0, 752.0, 752.0, 752.0, 752.0, 752.0, 753.0, 752.0, 752.0, 753.0, 753.0, 753.0, 753.0, 752.0, 751.0, 751.0, 752.0, 751.0, 751.0, 752.0, 751.0, 751.0, 751.0, 751.0, 752.0, 751.0, 751.0, 751.0, 751.0, 752.0, 751.0, 751.0, 751.0, 752.0, 752.0, 752.0, 751.0, 752.0, 752.0, 751.0, 751.0, 752.0, 752.0, 752.0, 751.0],
+      "WindowWidth": [1661.0, 1655.0, 1656.0, 1653.0, 1653.0, 1651.0, 1650.0, 1652.0, 1654.0, 1654.0, 1654.0, 1653.0, 1650.0, 1652.0, 1654.0, 1653.0, 1652.0, 1650.0, 1649.0, 1652.0, 1655.0, 1659.0, 1657.0, 1656.0, 1656.0, 1653.0, 1654.0, 1654.0, 1654.0, 1653.0, 1655.0, 1650.0, 1651.0, 1652.0, 1653.0, 1653.0, 1651.0, 1651.0, 1652.0, 1653.0, 1653.0, 1653.0, 1650.0, 1651.0, 1652.0, 1653.0, 1650.0, 1654.0, 1653.0, 1654.0, 1653.0, 1652.0, 1654.0, 1648.0, 1650.0, 1649.0, 1652.0, 1652.0, 1655.0, 1657.0, 1652.0, 1653.0, 1651.0, 1653.0, 1649.0, 1653.0, 1656.0, 1658.0, 1656.0, 1653.0, 1652.0, 1655.0, 1655.0, 1654.0, 1653.0, 1653.0, 1655.0, 1652.0, 1652.0, 1650.0, 1652.0, 1652.0, 1653.0, 1656.0, 1651.0, 1651.0, 1653.0, 1653.0, 1655.0, 1656.0, 1652.0, 1649.0, 1650.0, 1651.0, 1648.0, 1650.0, 1652.0, 1649.0, 1648.0, 1649.0, 1649.0, 1652.0, 1649.0, 1648.0, 1649.0, 1649.0, 1651.0, 1650.0, 1648.0, 1648.0, 1652.0, 1653.0, 1652.0, 1649.0, 1650.0, 1651.0, 1649.0, 1648.0, 1651.0, 1651.0, 1652.0, 1649.0]
+    },
+    "slices": {}
+  }
+}
