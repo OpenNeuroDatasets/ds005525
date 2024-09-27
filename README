@@ -9,7 +9,7 @@ In brief, the study aimed to determine how misalignment between sleeping and eat
 All participants were scanned twice under each condition: once on day 3 and again on day 14 of the same condition (i.e., every participant has 4 scans). The order of conditions was randomized between subjects (A = circadian aligned; B = circadian misaligned):
 
 |sub_id|ses-1 (condition 1, day 3)|ses-2 (condition 1, day 14)|ses-3 (condition 2, day 3)|ses-4 (condition 2, day 14)|
-|------|------|------|------|------|
+|:------|:------:|:------:|:------:|:------:|
 |CM101|A|A|B|B|
 |CM102|B|B|A|A|
 |CM103|B|B|A|A|
