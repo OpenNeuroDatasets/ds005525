@@ -11,7 +11,7 @@
     "BIDSVersion": "1.8.0",
     "DatasetDOI": "TODO: eventually a DOI for the dataset",
     "Funding": [
-        "NIH grant 5R01HL128226"
+        "NIH 5R01HL128226"
     ],
     "HowToAcknowledge": "",
     "License": "CC0",
