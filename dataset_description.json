@@ -1,10 +1,12 @@
 {
     "Acknowledgements": "",
     "Authors": [
-        "TODO:",
-        "First1 Last1",
-        "First2 Last2",
-        "..."
+        "Luis Martinez Agulleiro",
+        "Bowen Deng",
+        "Yuliya Yoncheva",
+        "Chao-Gan Yan",
+        "F Xavier Castellanos",
+        "Marie-Pierre St-Onge"
     ],
     "BIDSVersion": "1.8.0",
     "DatasetDOI": "TODO: eventually a DOI for the dataset",
